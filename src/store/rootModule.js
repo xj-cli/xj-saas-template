@@ -1,6 +1,6 @@
 import { SET_SLIDER, CREATE_WEBSOCKET, SET_MESSAGE } from './action-types';
-// import { getSlider } from '@/api/public';
-import { getSlider } from '@/api/mock/public';
+import { getSlider } from '@/api/public';
+// import { getSlider } from '@/api/mock/public';
 import WS from '../utils/websocket';
 
 export default {

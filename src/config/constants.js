@@ -1,1 +1,1 @@
-export const BASE_URL = 'http://vue.zhufengpeixun.cn';
+export const BASE_URL = 'http://localhost:3000';

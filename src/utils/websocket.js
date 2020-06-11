@@ -4,8 +4,8 @@ import { SET_MESSAGE } from '../store/action-types';
 
 class WS {
   constructor(config ={}) {
-    this.url = config.url || 'vue.zhufengpeixun.cn';
-    this.port = config.port || 80;
+    this.url = config.url || 'localhost';
+    this.port = config.port || 4000;
     this.protocol = config.protocol || 'ws';
     this.time = config.time || 30 * 1000;
     this.ws = null;
