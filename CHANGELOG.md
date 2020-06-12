@@ -1,4 +1,4 @@
-# 0.1.0 (2020-06-09)
+## [0.1.1](https://github.com/xj-cli/xj-saas-cli/compare/12067c9949a57a2c61b3292506d6ff0ec4f5386b...v0.1.1) (2020-06-09)
 
 
 ### Features
