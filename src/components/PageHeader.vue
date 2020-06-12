@@ -39,7 +39,7 @@
           <el-submenu v-else index='user'>
             <template slot="title">{{ userInfo.username }}</template>
             <el-menu-item index="manager">
-              <router-link to='/manager'>后台管理</router-link>
+              <router-link to='/manager' style='color: #fff;'>后台管理</router-link>
             </el-menu-item>
             <el-menu-item @click='logout' index='logout'>退出登陆</el-menu-item>
           </el-submenu>

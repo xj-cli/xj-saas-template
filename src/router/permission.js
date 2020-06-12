@@ -29,14 +29,14 @@ export default [
       import(/*webpackChunkName:'manager'*/ "@/views/manager/infoPublish.vue"),
   },
   {
-    path: "articleManager",
+    path: "articleManage",
     meta: {
-      auth: "articleManager",
+      auth: "articleManage",
     },
-    name: "articleManager",
+    name: "articleManage",
     component: () =>
       import(
-        /*webpackChunkName:'manager'*/ "@/views/manager/articleManager.vue"
+        /*webpackChunkName:'manager'*/ "@/views/manager/articleManage.vue"
       ),
   },
   {
